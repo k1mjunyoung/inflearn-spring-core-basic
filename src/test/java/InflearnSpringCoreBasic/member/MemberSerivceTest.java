@@ -1,9 +1,5 @@
-package InflearnSpringCoreBasic.Member;
+package InflearnSpringCoreBasic.member;
 
-import InflearnSpringCoreBasic.member.Grade;
-import InflearnSpringCoreBasic.member.Member;
-import InflearnSpringCoreBasic.member.MemberService;
-import InflearnSpringCoreBasic.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
