@@ -3,6 +3,7 @@ package InflearnSpringCoreBasic;
 
 import InflearnSpringCoreBasic.discount.DiscountPolicy;
 import InflearnSpringCoreBasic.discount.FixDiscountPolicy;
+import InflearnSpringCoreBasic.discount.RateDiscountPolicy;
 import InflearnSpringCoreBasic.member.MemberRepository;
 import InflearnSpringCoreBasic.member.MemberService;
 import InflearnSpringCoreBasic.member.MemberServiceImpl;
@@ -24,6 +25,7 @@ public class AppConfig {
     }
 
     public DiscountPolicy discountPolicy() {
-        return new FixDiscountPolicy();
+//        return new FixDiscountPolicy();
+        return new RateDiscountPolicy();
     }
 }
